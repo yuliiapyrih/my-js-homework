@@ -43,13 +43,31 @@ let objBook = {
 // - з 5 собак
 // - 3 5 людей
 // - з 5 автомобілів
-dogsArray =['такса','мопс','вівчарка','пудель','бульдог'];
+dogsArray =[
+    {species:'такса', age:3 ,colorWool:'white'},
+    {species:'мопс', age:1 ,colorWool:'black'},
+    {species:'вівчарка', age:7 ,colorWool:'brown'},
+    {species:'пудель', age:5 ,colorWool:'pink'},
+    {species:'бульдог', age:10 ,colorWool:'blue'}
+];
 console.log(dogsArray);
 
-peopleArray=['Степанов Андрій','Іванов Іван','Степаненко Степан','Зеленський Володимир','Богданов Дмитро'];
+peopleArray=[
+    {name:'Євгенія',height:173,weight:78},
+    {name:'Юрій',height:200,weight:100},
+    {name:'Роман',height:183,weight:80},
+    {name:'Вікторія',height:17,weight:70},
+    {name:'Денис',height:100,weight:25}
+];
 console.log(peopleArray);
 
-carsArray=['Acura','Audi','Bentley','BMW','Bugatti'];
+carsArray=[
+    {model:'Acura',year:2000,color:'red'},
+    {model:'Audi',year:2001,color:'yellow'},
+    {model:'Bentley',year:2002,color:'silver'},
+    {model:'BMW',year:2003,color:'cherry'},
+    {model:'Bugatti',year:2004,color:'green'}
+];
 console.log(carsArray);
 
 // -- створити об'єкт (не меньше 5ти властивостей) який описує, одна з властивостей обов'язково повинна бути об'єктом,ще одна - масивом
